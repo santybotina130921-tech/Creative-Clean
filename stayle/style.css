@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    color: #555;
+    background-color: #fff;
+}
+
+.hero {
+    background-image: url('../assets/img/bgHeader.png'); 
+    background-position: center bottom; 
+    background-size: cover;
+    min-height: 750px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    padding: 100px 20px;
+    box-sizing: border-box;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 70px; 
+    color: #f7944d;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.hero-content .subtitle {
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #444;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-hero-btn {
+    margin-top: 140px; 
+    background-color: #f7944d;
+    color: #ffffff;
+    padding: 20px 32px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block;
+}
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 32px;
+    background-color: #f7944d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+    align-self: flex-start;
+}
+
+.btn:hover {
+    background-color: #e3823c;
+}
+
+
+
+.feature-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 10%;
+    gap: 60px;
+}
+
+.feature-section.reverse {
+    flex-direction: row-reverse;
+}
+
+.text-block {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-block h2 {
+    font-size: 40px;
+    color: #f7944d;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.text-block p {
+    font-size: 30px;
+    line-height: 1.3;
+    color: #3b3b3b;
+    margin-bottom: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.img-block {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.img-block img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    display: block;
+}
+
+/* BANNER  */
+.banner-section {
+    background-image: url('../assets/img/bgDown.png'); 
+    background-position: center bottom; 
+    background-size: cover;
+    min-height: 700px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    padding: 60px 20px; 
+    box-sizing: border-box;
+}
+
+.banner-content {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start; 
+    gap: 40px;
+    width: 100%;
+    max-width: 1200px; 
+}
+
+.banner-content .text-block {
+    padding-bottom: 60px;
+    max-width: 450px;
+ }
+
+
+/* FOOTER */
+.footer {
+    background-color: #ff8533;
+    color: #fff;
+    padding: 70px 10% 20px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 2000px;
+    margin-bottom: 50px;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.footer-col h4 {
+    font-size: 22px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-col ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-col ul li a {
+    color: #ffe6d5;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-col ul li a:hover {
+    color: #000000;
+}
+
+.footer-bottom {
+  
+    box-shadow: #00000042 0px -8px 8px;
+    width: 130%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 18px;
+    color: #ffd9c2;
+    font-family: Arial, sans-serif;
+}
